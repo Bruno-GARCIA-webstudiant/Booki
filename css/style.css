@@ -1,14 +1,23 @@
 #header{
    display: flex;
+   align-items: center;
    justify-content: space-between;
-   
+   margin-top: .3125rem;
 
 }
 .logo{
    border: 2px solid red;
-   width:10%
+   height: 2.125rem;
+   width:50px;
 }
 nav{
+   width: 15.625rem;
+}
+ul{
    display: flex;
-   align-items: center;
+   justify-content: space-around;
+}
+li{
+   font-size: 1rem;
+   font-weight: 500;
 }
