@@ -6,3 +6,6 @@
 .vscode/
 node_modules/
 tmp/
+
+#file
+README.md

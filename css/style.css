@@ -1,0 +1,14 @@
+#header{
+   display: flex;
+   justify-content: space-between;
+   
+
+}
+.logo{
+   border: 2px solid red;
+   width:10%
+}
+nav{
+   display: flex;
+   align-items: center;
+}
