@@ -1,0 +1,8 @@
+# Fichiers à ignorer
+.DS_Store
+*.log
+
+# Dossiers à ignorer
+.vscode/
+node_modules/
+tmp/
