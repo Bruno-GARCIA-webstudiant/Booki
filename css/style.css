@@ -5,9 +5,16 @@
    margin-top: .3125rem;
 
 }
+.head-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
 .logo{
    border: 2px solid red;
    height: 2.125rem;
+   margin-left: .625rem;
    width:50px;
 }
 nav{
