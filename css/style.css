@@ -1,3 +1,14 @@
+:root{
+   --main-color: #0065fc;
+   --main-bg-color: #f2f2f2;
+   --filter-bg-color: #deebff;
+   --pure-white: #fff;
+}
+
+body{
+   margin: 0 auto;
+   width: 90rem;
+}
 #header{
    display: flex;
    align-items: center;
@@ -6,16 +17,18 @@
 
 }
 .head-container{
+   background-color: aqua;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   height: 12.5rem;
    width: 100%;
 }
 .logo{
    border: 2px solid red;
-   height: 2.125rem;
-   margin-left: .625rem;
-   width:50px;
+   height: 1.625rem;
+   margin-left: 1rem;
+   width: 3.75rem;
 }
 nav{
    width: 15.625rem;
