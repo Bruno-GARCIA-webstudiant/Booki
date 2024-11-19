@@ -60,8 +60,9 @@ video {
    border: 0;
    font-size: 100%;
    font: inherit;
-   vertical-align: baseline;
+   text-decoration: none;
    text-rendering: optimizeLegibility;
+   vertical-align: baseline;
    -webkit-font-smoothing: antialiased;
 }
 
@@ -74,6 +75,7 @@ main {
 }
 
 body {
+   color: #000;
    line-height: 1;
 }
 

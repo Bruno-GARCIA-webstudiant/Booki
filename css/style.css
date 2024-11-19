@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
+   --main-primary:#000;
    --main-color: #0065fc;
    --main-bg-color: #f2f2f2;
    --filter-bg-color: #deebff;
@@ -11,23 +13,13 @@ body{
 }
 #header{
    display: flex;
-   align-items: center;
+   height: 3.75rem;
    justify-content: space-between;
-   margin-top: .3125rem;
+}
 
-}
-.head-container{
-   background-color: aqua;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   height: 12.5rem;
-   width: 100%;
-}
-.logo{
-   border: 2px solid red;
+#logo{
    height: 1.625rem;
-   margin-left: 1rem;
+   margin-top: 1.125rem;
    width: 3.75rem;
 }
 nav{
@@ -35,9 +27,57 @@ nav{
 }
 ul{
    display: flex;
+   height: 3.125rem;
    justify-content: space-around;
+   list-style: none;
+   margin-top: .125rem;
+  
 }
+
 li{
    font-size: 1rem;
    font-weight: 500;
+   padding-top: .625rem;
+   
+}
+li :hover{
+   color: #0065fc;
+   border-top:1px solid #0065fc;
+   padding-top: .625rem;
+}
+/*Filter*/
+h1{
+   font-family: 'raleway';
+   font-size: 1.375rem;
+   font-weight: 900;
+   font-weight: bolder;
+   margin: 1rem 0;
+}
+.info-filter{
+      background-color: yellowgreen;
+      height: 17.5rem;
+}
+.info-filter p{
+   font-family: 'raleway';
+   font-size: 1.375rem;
+}
+#text{
+   display: flex;
+
+}
+form{
+   display: flex;
+   margin-top: 2rem;
+}
+.one, .two{
+   background-color: #f2f2f2;
+   margin: 5rem 2rem;
+   padding: 1rem;
+   border-radius: 16px;
+}
+
+
+/*test*/
+.fa-search{
+   visibility: hidden;
 }
