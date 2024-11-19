@@ -54,20 +54,47 @@ h1{
    margin: 1rem 0;
 }
 .info-filter{
-      background-color: yellowgreen;
-      height: 17.5rem;
+    
+      height: 9.5rem;
 }
 .info-filter p{
    font-family: 'raleway';
    font-size: 1.375rem;
 }
-#text{
-   display: flex;
 
-}
 form{
    display: flex;
-   margin-top: 2rem;
+   height: 2rem;
+   margin: 2rem 0rem;
+}
+.search-zone{
+   display: flex;
+   align-items: center;
+}
+.fa-map-marker-alt{
+   height: 2rem;
+   width: 1.5625rem;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   background-color: #f2f2f2;
+   border-radius: .625rem 0rem 0rem .625rem;
+}
+.btn-search{
+   background: #0065fc;
+   border-radius: 0rem .625rem .625rem 0rem;
+   color: #fff;
+}
+input{
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   width: 7.5rem;
+}
+input,
+.btn-search {
+   border: transparent;
+   height: 32px;
 }
 .one, .two{
    background-color: #f2f2f2;
