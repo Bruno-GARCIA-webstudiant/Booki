@@ -1,58 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description"
-        content="tourisme et détente sous le soleil de nos régions. Visitez Bouc Bel Air et ses environs">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="tourisme et détente sous le soleil de nos régions. Visitez Bouc Bel Air et ses environs"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booki</title>
     <!-- ///////////////////////////////////////////////////////////////////////////////// -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- ///////////////////////////////////////////////////////////////////////////////// -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="./css/reset.css">   
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <main class="container">
-        <header id="header">
-           <a href="#">
-            <img src="./assets/images/logo/Booki.png" id="logo" alt="logo booki">
-           </a>
-           <nav>
-            <ul class="navBar">
+      <header id="header">
+        <a href="#">
+          <img
+            src="./assets/images/logo/Booki.png"
+            id="logo_header"
+            alt="logo booki"
+          />
+        </a>
+        <nav>
+          <ul id="nav_header">
             <li>
-                <a class="btn-navBar" href="#hebergement">Hébergements</a>
+              <a class="btn-navbar" href="#hebergements">Hébergements</a>
             </li>
             <li>
-                <a class="btn-navBar" href="#activite">Activités</a>
+              <a class="btn-navbar" href="#activites">Activités</a>
             </li>
-            </ul>
-           </nav>
-        </header>
-        
-        <section class="info-filter">
+          </ul>
+        </nav>
+      </header>
+<!--//////////////////// INFO and FILTERS ////////////////////-->
+      <section class="info-filter">
+        <div >
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-       <form action="#" method="get" class="search-zone">
-        <i class="fas fa-map-marker-alt"></i>
-        <input type="text" name="ville" placeholder="ville, pays" value="Marseille, France">
-        <button type="submit" class="btn-search">Rechercher<i class="fas fa-search search-icon"></i></button>
-       </form>
-       <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        <form action="#" method="get" class="search-zone">
+          <i class="fas fa-map-marker-alt"></i>
+          <input
+            type="text"
+            name="ville"
+            placeholder="ville, pays"
+            value="Marseille, France"
+          />
+          <button type="submit" class="btn-search">
+            Rechercher<i class="fas fa-search search-icon"></i>
+          </button>
+        </form>
+        <div>
+          <i class="fa-solid fa-info"></i>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </section>
+      <div id="text">
+        <section class="one">
+          <article>
+            <img src="./assets/images/hebergements/annie-spratt.jpg" alt="" />
+          </article>
+          <article>
+            <img src="./assets/images/hebergements/aw-creative.jpg" alt="" />
+          </article>
         </section>
-        <div id="text">
-            <section class="one"></section>
-                <section class="two"></section>
-                </div>
-                </main>
-
-</body>
-
+        <section class="two"></section>
+      </div>
+    </main>
+  </body>
 </html>
