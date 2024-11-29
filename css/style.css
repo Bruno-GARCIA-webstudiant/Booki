@@ -11,6 +11,7 @@ body{
    margin: 0 auto;
    width: 90rem;
 }
+
 #header{
    display: flex;
    height: 3.75rem;
@@ -59,7 +60,7 @@ h1{
 }
 .info-filter p{
    font-family: 'raleway';
-   font-size: 1.375rem;
+   font-size: 1rem;
 }
 
 form{
@@ -96,15 +97,15 @@ input,
    border: transparent;
    height: 32px;
 }
-.one, .two{
-   background-color: #f2f2f2;
-   margin: 5rem 2rem;
-   padding: 1rem;
-   border-radius: 16px;
+.info-filter .search-icon {
+   display: none;
 }
-
-
-/*test*/
-.fa-search{
-   visibility: hidden;
+.btn-filter-bar{
+   height: 2.25rem;
+   width: 8.125rem;
+   border: #deebff solid 2px;
+   border-radius: 1rem;
+   margin-left: 2rem;
+   padding: 0.5rem;
+   text-align: center;
 }
